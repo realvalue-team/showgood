@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <!-- 반응형 [s] -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="imagetoolbar" content="no">
+    <!-- 반응형 [e] -->
+    <meta name="naver-site-verification" content=""/><!-- 네이버 소유확인 -->
+    <meta name="description" content=""><!-- 사이트 설명문구 -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sample">
+    <meta property="og:description" content=""><!-- 사이트 설명문구 -->
+    <meta property="og:image" content="assets/img/common/logo.png">
+    <meta property="og:url" content="">
+	<title>ShowGood</title>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/jquery-1.8.3.min.js"></script>
+    <script src="assets/js/topmenu_script.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/story-box-uncompressed.js"></script>
+    <link rel="stylesheet" href="assets/css/sh_common.css">
+    <link rel="stylesheet" href="assets/css/sh_main.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+</head>
+<body>
+
+<!-- sh_wrapper [s] -->
+<div id="sh_wrapper" class="index">
+    
+    <!-- sh_hd [s] -->
+    <header id="sh_hd">
+        <div class="top_nav_bg"></div>
+    	<div id="sh_hd_wrapper">
+            
+            <div id="topNavWrap">  
+                <div id="top_logo">
+                    <a href="index.html"><img src="./assets/img/common/logo.png" alt="쇼굿"></a>
+                </div>
+                <ul id="topNav">
+                    <li class="menu-item">
+                        <a href="./company/greeting.html">COMPANY</a>
+                        <ul class="top_nav_s">
+                            <li><a href="./company/greeting.html">회사소개</a> </li>
+                            <li><a href="./company/history.html">연혁/비전</a> </li>
+                            <li><a href="./company/organization.html">조직도</a> </li>
+                            <li><a href="./company/location.html">오시는 길</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./business/event-planning.html">BUSINESS</a>
+                        <ul class="top_nav_s">
+                            <li><a href="./business/event-planning.html">행사기획</a> </li>
+                            <li><a href="./business/performance-distribution.html">공연팀 배급</a> </li>
+                            <li><a href="./business/sound-light.html">음향/조명</a> </li>
+                            <li><a href="./business/stage-installation.html">무대시공</a> </li>
+                            <li><a href="./business/video-production.html">영상제작</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./portfolio/corporate-events.html">PORTFOLIO</a>
+                        <ul class="top_nav_s">
+                            <li><a href="./portfolio/corporate-events.html">기업행사</a> </li>
+                            <li><a href="./portfolio/festival-performance.html">축제/공연</a> </li>
+                            <li><a href="./portfolio/wedding-event.html">웨딩/이벤트</a> </li>
+                            <li><a href="./portfolio/promotion.html">프로모션</a> </li>
+                            <li><a href="./portfolio/video-gallery.html">영상 갤러리</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./team/performer-list.html">TEAM</a>
+                        <ul class="top_nav_s">
+                            <li><a href="./team/performer-list.html">공연팀 목록</a> </li>
+                            <li><a href="./team/artist-registration.html">아티스트 등록신청</a> </li>
+                            <li><a href="./team/staff-registration.html">기술인력 등록신청</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./community/estimate-inquiry.html">CONTACT</a>
+                        <ul class="top_nav_s">
+                            <li><a href="./community/estimate-inquiry.html">견적 문의</a> </li>
+                            <li><a href="./community/partnership-inquiry.html">협업/제휴 문의</a> </li>
+                            <!-- <li><a href="./community/review.html">고객후기</a> </li> -->
+                        </ul>
+                    </li>
+                </ul>
+                <div id="menuLine"></div>
+
+                <div id="pfBtn" class="">
+                    <div id="nav_btn"><span class="move"></span></div>
+                </div>
+
+                <div id="pfWrap">
+                    <div class="pf_cate">
+                        <ul>
+                            <li>
+                                <a href="./company/greeting.html">
+                                    <span class="nav_num">01</span>COMPANY
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./business/event-planning.html">
+                                    <span class="nav_num">02</span>BUSINESS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./portfolio/corporate-events.html">
+                                    <span class="nav_num">03</span>PORTFOLIO
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./team/performer-list.html">
+                                    <span class="nav_num">04</span>TEAM
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./community/estimate-inquiry.html">
+                                    <span class="nav_num">05</span>CONTACT
+                                </a>
+                            </li>
+                        </ul>
+                        <a class="ct_link"  href="tel:02-6404-4286">CONTACT</a>
+                    </div>
+                </div>	
+            </div>
+
+            <!-- 반응형메뉴 [s] -->
+            <div id="topmenuM">
+                <div id="m_logo"><a href="index.html"><img src="./assets/img/common/logo.png" alt="Sample" /></a></div>
+                <!-- 메뉴 버튼 -->
+                <div id="m_navBtn"><span></span></div>
+                <!-- 오픈 메뉴 -->
+                <div id="navWrap">
+                    <div class="inner">
+                        <ul class="m_lnb">
+                            <li>
+                                <button class="m_bmenu" type="button">COMPANY</button>
+                                <ul class="m_smenu">
+                                    <li><a href="./company/greeting.html">회사소개</a> </li>
+                                    <li><a href="./company/history.html">연혁/비전</a> </li>
+                                    <li><a href="./company/organization.html">조직도</a> </li>
+                                    <li><a href="./company/location.html">오시는 길</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="m_bmenu" type="button">BUSINESS</button>
+                                <ul class="m_smenu">
+                                    <li><a href="./business/event-planning.html">행사기획</a> </li>
+                                    <li><a href="./business/performance-distribution.html">공연팀 배급</a> </li>
+                                    <li><a href="./business/sound-light.html">음향/조명</a> </li>
+                                    <li><a href="./business/stage-installation.html">무대시공</a> </li>
+                                    <li><a href="./business/video-production.html">영상제작</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="m_bmenu" type="button">PORTFOLIO</button>
+                                <ul class="m_smenu">
+                                    <li><a href="./portfolio/corporate-events.html">기업행사</a> </li>
+                                    <li><a href="./portfolio/festival-performance.html">축제/공연</a> </li>
+                                    <li><a href="./portfolio/wedding-event.html">웨딩/이벤트</a> </li>
+                                    <li><a href="./portfolio/promotion.html">프로모션</a> </li>
+                                    <li><a href="./portfolio/video-gallery.html">영상 갤러리</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="m_bmenu" type="button">TEAM</button>
+                                <ul class="m_smenu">
+                                    <li><a href="./team/performer-list.html">공연팀 목록</a> </li>
+                                    <li><a href="./team/artist-registration.html">아티스트 등록신청</a> </li>
+                                    <li><a href="./team/staff-registration.html">기술인력 등록신청</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="m_bmenu" type="button">CONTACT</button>
+                                <ul class="m_smenu">
+                                    <li><a href="./community/estimate-inquiry.html">견적 문의</a> </li>
+                                    <li><a href="./community/partnership-inquiry.html">협업/제휴 문의</a> </li>
+                                </ul>
+                            </li>
+                        </ul> 
+                        <p class="mo_hd_copy">ⓒ ShowGood</p>         
+                    </div>
+                </div>
+            </div>
+            <!-- 반응형메뉴 [e] -->
+        </div>           
+    </header>
+    <!-- sh_hd [e] -->
+
+    <!-- sh_container [s] -->
+    <main id="sh_container">
+        <!-- sh_container_wrapper [s] -->
+		<div id="sh_container_wrapper">
+
+            <!-- main_banner [s] -->
+            <div id="main_banner">
+                <div id="mainVisual">
+                    <div id="particle-canvas"></div>
+                    <div class="mask"></div>
+                    <script src="js/canvas.js"></script>
+                    <div class="scr">Scroll Down<br /><span></span></div>
+                
+                    <div class="txt_area">
+                        <h1 class="txt">Creativity is our passion</h1>
+                        <div class="stxt">차별화된 스토리로 가치를 더합니다. </div>
+                    </div> 
+                    <div class="swiper-container mainSlide">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide bg01">
+                                <div class="num">
+                                    <span class="first">01</span><span class="last">03</span>
+                                </div>
+                            </li>
+                            <li class="swiper-slide bg02">
+                                <div class="num">
+                                    <span class="first">02</span><span class="last">03</span>
+                                </div>
+                            </li>
+                            <li class="swiper-slide bg03">
+                                <div class="num">
+                                    <span class="first">03</span><span class="last">03</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pause">
+                        <div class="pause_btn on"></div>
+                    </div>
+                
+                    <div class="time_line">
+                        <div class="bar"></div>
+                    </div>
+                
+                    <div class="pager"></div>
+                </div>
+            </div>
+            <script>
+                $(document).ready(function(){	
+                    // 배경 오버레이
+                    $(window).on('scroll', function(){ 
+                    if($(this).scrollTop() > 50){ 
+                            $('.mask').css("opacity","1");
+                        } else {
+                            $('.mask').css("opacity","0");
+                        }
+                    });
+                
+                    $('#mainVisual .scr ').click(function(){
+                        $("html, body").animate({ scrollTop: 900 }, 500);
+                        return false;
+                    });	
+                
+                    const bullet = ['01', '02', '03']
+                
+                    var main = new Swiper(".mainSlide", {
+                        loop:true,
+                        speed:1200,
+                        effect:"fade",
+                        slideActiveClass: 'on',
+                        autoplay: {
+                            delay: 5000,
+                            disableOnInteraction: false
+                        },
+                        pagination:{
+                            el:"#mainVisual .pager",
+                            clickable:true,
+                            bulletActiveClass : 'on',
+                            renderBullet: function (index, className) {
+                                return '<div class="' + className + '"><span>' + (bullet[index]) + '</span></div>';
+                            }
+                        }
+                    });
+                
+                    $("#mainVisual .time_line").addClass('animation');
+                
+                    main.on('slideChange',function(){
+                        $("#mainVisual .time_line").removeClass('animation');
+                        $("#mainVisual .time_line").offset();
+                        $("#mainVisual .time_line").addClass('animation');
+                    });
+                
+                    let count = 0;
+                
+                    $('.pause_btn').on('click', function(){
+                
+                        if(count == 0){
+                            $('.pause_btn').removeClass("on");
+                            $('.pause_btn').addClass("off");
+                            $("#mainVisual .time_line").removeClass('animation');
+                            main.autoplay.stop();
+                            count ++;
+                        }
+                        else if(count == 1){
+                            $('.pause_btn').removeClass("off");
+                            $('.pause_btn').addClass("on");
+                            $("#mainVisual .time_line").addClass('animation');
+                            main.autoplay.start();
+                            count --;
+                        }
+                    });
+                            
+                    $('#mainVisual .txt_area .txt').delay(200).animate({"margin-top":"0","opacity":"1"},800);
+                    $('#mainVisual .txt_area .stxt').delay(800).animate({"margin-top":"0","opacity":"1"},800);
+                });
+            </script>
+            <!-- main_banner [e] -->
+
+            <!-- sh_section [s] -->
+            <section id="sh_section">
+                <!-- inc01 [s] -->
+                <article id="atc01">
+
+                    <div class="scr_txt">Special</div>
+                    <div class="scr_txt txt2">Value</div>
+                    <div class="inner">
+                    
+                        <div class="tit">
+                            <span>EVENT PLAN</span>
+                            <h2>BUSINESS</h2>
+                        </div>
+                        
+                        <main class="smooth">
+                            <ul>
+                                <li data-sb="fadeInUp">
+                                    <a href="" class="tilter">
+                                        <figure class="tilter__figure">
+                                            <div class="img">
+                                                <img src="assets/img/main/inc01/img01.jpg" alt="기업행사" />
+                                            </div>
+                                        </figure>
+                                    </a>
+                                    <h3>Corporate Event<span>기업행사</span></h3>
+                                </li>
+                                <li data-sb="fadeInUp">
+                                    <a href="" class="tilter">
+                                        <figure class="tilter__figure">
+                                            <div class="img">
+                                                <img src="assets/img/main/inc01/img02.jpg" alt="프로모션" />
+                                            </div>
+                                        </figure>
+                                    </a>                
+                                    <h3>Open Promotion<span>프로모션</span></h3>
+                                </li>
+                                <li data-sb="fadeInUp">
+                                    <a href="" class="tilter">
+                                        <figure class="tilter__figure">
+                                            <div class="img">
+                                                <img src="assets/img/main/inc01/img03.jpg" alt="매니지먼트" />
+                                            </div>
+                                        </figure>
+                                    </a>  
+                                    <h3>Management <span>매니지먼트</span></h3>
+                                </li>
+                                <li data-sb="fadeInUp">
+                                    <a href="" class="tilter">
+                                        <figure class="tilter__figure">
+                                            <div class="img">
+                                                <img src="assets/img/main/inc01/img04.jpg" alt="케이터링" />
+                                            </div>
+                                        </figure>
+                                    </a>  
+                                    <h3>Catering<span>케이터링</span></h3>
+                                </li>
+                            </ul>
+                        </main>
+                
+                        <div class="grid">
+                            <em class="dot01"></em>
+                            <em class="dot02"></em>
+                            <em class="dot03"></em>
+                            <span class="line01"></span>
+                            <span class="line02"></span>
+                            <span class="line03"></span>
+                        </div>        
+                        
+                        <a class="more_btn" href=""><span>view more</span></a>
+                        
+                    </div>
+                </article>
+                <script>
+                    $(window).bind('scroll',function(e){
+                        parallaxScroll();
+                    });
+                    function parallaxScroll(){
+                        var scrolled = $(window).scrollTop();
+                        $('#atc01 .scr_txt').css('right',(-200+(scrolled*.15))+'px');	
+                        $('#atc01 .scr_txt.txt2').css('left',(-300+(scrolled*.17))+'px');	
+                    }
+                </script>   
+                <!-- inc01 [e] -->
+                <!-- inc02 [s] -->
+                <article id="atc02">
+
+                    <div class="blind_wrap"><div class="blind"><div class="scr_txt">P<span class="stroke">ortfo</span></div></div></div>
+                    
+                    <h2 class="tit">portfolio</h2>
+                    
+                    <div class="swiper-container inc02"  data-sb="fadeInUp">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="img">
+                                    <a href="" title="디자인샘플">
+                                        <div class="img" style="background-image:url(assets/img/main/inc02/img01.jpg)">디자인샘플</div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img">
+                                    <a href="" title="디자인샘플">
+                                        <div class="img" style="background-image:url(assets/img/main/inc02/img02.jpg)">디자인샘플</div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img">
+                                    <a href="" title="디자인샘플">
+                                        <div class="img" style="background-image:url(assets/img/main/inc02/img03.jpg)">디자인샘플</div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_container">
+                        <div class="prev_nav">PREV</div>
+                        <div class="next_nav">NEXT</div>
+                    </div>
+                    <div class="pager"></div>
+                
+                    <div class="time_line">
+                        <div class="bar"></div>
+                    </div>
+                
+                    <div class="link_wrap"><a href=""><span class="t1">view more</span><span class="t2">view more</span></a></div>
+                </article>
+                <script>
+                    $(document).ready(function(){
+                        var inc02_slide = new Swiper(".inc02", {
+                            loop:true,
+                            speed:1200,
+                            slidesPerView:1.2,
+                            spaceBetween:12,
+                            loopedSlides: 3,
+                            centeredSlides:true,
+                            navigation:{
+                                prevEl:".prev_nav",
+                                nextEl:".next_nav"
+                            },
+                            pagination:{
+                                el:"#atc02 .pager",
+                                type: 'fraction',
+                            },
+                            autoplay: {
+                                delay: 3000,
+                                disableOnInteraction: false
+                            },
+                            breakpoints:{
+                                1025:{
+                                    slidesPerView:1,
+                                    spaceBetween:55,
+                                    centeredSlides:false,
+                                },
+                                769:{
+                                    slidesPerView:1.5,
+                                    spaceBetween:24,
+                                    centeredSlides:true,
+                                },
+                                481:{
+                                    slidesPerView:1.3,
+                                    spaceBetween:24,
+                                    centeredSlides:true,
+                                }
+                            }
+                        });
+                    
+                        $("#atc02 .time_line").addClass('animation');
+                    
+                        inc02_slide.on('slideChange',function(){
+                            $("#atc02 .time_line").removeClass('animation');
+                            $("#atc02 .time_line").offset();
+                            $("#atc02 .time_line").addClass('animation');
+                        });
+                    
+                    });
+                </script>
+                <!-- inc02 [e] -->
+                <!-- inc03 [s] -->
+                <article id="atc03">
+
+                    <div class="tit">
+                        <span>EVENT PLAN</span>
+                        <h2>TEAM</h2>
+                        <div class="btn_wrap"></div>
+                    </div>
+                    
+                    <div class="swiper-container inc03">
+                        <ul class="swiper-wrapper">
+                            <div class="swiper-slide item">
+                                <a href="">
+                                    <div class="date"><span>25</span>2019.10</div>
+                                    <span class="stit">REVIEW</span> 
+                                    <p class="subj">너무 즐거운 시간이었습니다!</p>    
+                                    즐거운 행사 분위기 속에서 사고없이 잘 마무리 되었습니다.훌륭한 서비스로 모두가 만족스러운 행사 다시한번 감사드립니다. 
+                                    <div class="plus"><img src="assets/img/main/inc03/plus.png" alt="더보기"></div>    
+                                    <p class="hit">1374 views</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide item">
+                                <a href="">
+                                    <div class="date"><span>25</span>2019.10</div>
+                                    <span class="stit">REVIEW</span> 
+                                    <p class="subj">덕분에 행사를 잘 마무리하게 되었습니..</p>    
+                                    급하게 연락 드렸음에도 불구하고 신속하게 행사를 진행할 수 있었습니다.덕분에 행사가 잘 마무리 되었어요.뜻깊은 시간 만들어 주셔서 감사드립니다. 
+                                    <div class="plus"><img src="assets/img/main/inc03/plus.png" alt="더보기"></div>    
+                                    <p class="hit">1469 views</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide item">
+                                <a href="">
+                                    <div class="date"><span>25</span>2019.10</div>
+                                    <span class="stit">REVIEW</span> 
+                                    <p class="subj">케이터링 서비스 후기</p>    
+                                    This is Photoshop's version&nbsp; of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollic... 
+                                    <div class="plus"><img src="assets/img/main/inc03/plus.png" alt="더보기"></div>    
+                                    <p class="hit">1434 views</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide item">
+                                <a href="">
+                                    <div class="date"><span>25</span>2019.10</div>
+                                    <span class="stit">REVIEW</span> 
+                                    <p class="subj">We are grateful for ..</p>    
+                                    This is Photoshop's version&nbsp; of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollic... 
+                                    <div class="plus"><img src="assets/img/main/inc03/plus.png" alt="더보기"></div>    
+                                    <p class="hit">1369 views</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide item">
+                                <a href="">
+                                    <div class="date"><span>25</span>2019.10</div>
+                                    <span class="stit">REVIEW</span> 
+                                    <p class="subj">뜻깊은 시간 감사합니다.</p>    
+                                    This is Photoshop's version&nbsp; of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bib.. 
+                                    <div class="plus"><img src="assets/img/main/inc03/plus.png" alt="더보기"></div>    
+                                    <p class="hit">1776 views</p>
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+                
+                    <div class="nav_container">
+                        <div class="prev_nav">PREV</div>
+                        <div class="next_nav">NEXT</div>
+                    </div>
+                
+                </article>
+                <script>
+                    $(document).ready(function(){
+                        var inc03_slide = new Swiper(".inc03", {
+                            loop:true,
+                            spaceBetween:9,
+                            slidesPerView: '1.2',
+                            centeredSlides:true,
+                            speed:1200,
+                            slideActiveClass: 'on',
+                            navigation:{
+                                prevEl:".prev_nav",
+                                nextEl:".next_nav"
+                            },
+                            autoplay: {
+                                delay: 3000,
+                                disableOnInteraction: false
+                            },
+                            breakpoints:{
+                                1025:{
+                                    spaceBetween:40,
+                                    slidesPerView: 'auto',
+                                },
+                                769:{
+                                    spaceBetween:30,
+                                    slidesPerView:2.5,
+                                    centeredSlides:true,
+                                },
+                                481:{
+                                    spaceBetween:20,
+                                    slidesPerView:1.3,
+                                    centeredSlides:true,
+                                },
+                                381:{
+                                    spaceBetween:12,
+                                    slidesPerView:1.2,
+                                    centeredSlides:true,
+                                }
+                            }
+                        })
+                    })
+                </script>
+                <!-- inc03 [e] -->
+            </section> 
+            <!-- sh_section [e] -->
+        </div>
+        <!-- sh_container_wrapper [e] --> 
+    </main>
+    <!-- sh_container [e] -->
+
+    <div id="sh_ft_btns">
+        <div class="btns">
+            <a class="tel" href="tel:02-6404-4286"><i class="fa fa-phone"></i>02-6404-4286</a>
+        </div>
+    </div>
+    <a id="fix_tel" href="tel:02-6404-4286" class=""><i class="fa fa-phone"></i></a>
+
+
+    <!-- sh_ft [s] -->
+    <footer id="sh_ft">
+        <div id="sh_ft_wrapper">
+            <div class="inner">
+                <dl class="add">
+                    <dt>Info</dt>
+                    <dd>
+                        LUXRYN INTERIOR 대표이사: 유성철<br>
+                        사업장주소: 서울특별시 서초구 서초대로 27길 56, 1층 (방배동, 예일빌딩) <br>
+                        사업자등록번호: 387-81-00793<br>
+                        대표번호: 02-6404-4286<br>
+                        이메일: ceo@luxuryNhouse.com
+                    </dd>      
+                </dl>
+                <dl>
+                    <dt>Customer Service</dt>
+                    <dd>
+                        T. 02-6404-4286<br>
+                        E. ceo@luxuryNhouse.com
+                    </dd>      
+                </dl>
+                <dl class="sns">
+                    <dt>Follow Us</dt>
+                    <dd>
+                        <a href=""><i class="fa fa-instagram"></i>instagram</a><br>
+                        <a href=""><i class="fa fa-comments-o"></i>kakao Talk</a>
+                    </dd>      
+                </dl>    
+            </div>    
+            <div class="copy">                    	 
+                <p>Copyright ⓒ ShowGood All rights reserved.</p>
+            </div>
+         </div>
+    </footer>
+    <!-- sh_ft [e] -->
+
+</div>
+<!-- sh_wrapper [e] -->
+
+<script>
+    $(window).on("scroll",function(){
+        if($(window).scrollTop() > 100) { 
+            $('#fix_tel').addClass('active');}
+        else{
+            $('#fix_tel').removeClass('active');}
+        return false;
+    });
+    $(function() {
+        // 폰트 리사이즈 쿠키있으면 실행
+        font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+    });
+</script>
+
+</body>
+</html>
+

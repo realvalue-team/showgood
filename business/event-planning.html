@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="naver-site-verification" content=""/><!-- 네이버 소유확인 -->
+    <meta name="description" content=""><!-- 사이트 설명문구 -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="회사소개-회사소개">
+    <meta property="og:description" content=""><!-- 사이트 설명문구 -->
+    <meta property="og:image" content="../assets/img/common/logo.png">
+    <meta property="og:url" content="">
+	<title>쇼굿</title>
+    <script src="../assets/js/jquery-ui.js"></script>
+    <script src="../assets/js/jquery-1.8.3.min.js"></script>
+    <script src="../assets/js/topmenu_script.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/jquery.masonry.min.js"></script>
+	<link rel="stylesheet" href="../assets/css/sh_common.css"> 
+    <link rel="stylesheet" href="../assets/css/sh_sub.css">        
+</head>
+<body>
+
+<!-- sh_wrapper [s] -->
+<div id="sh_wrapper">
+
+    <!-- sh_hd [s] -->
+    <header id="sh_hd">
+        <div class="top_nav_bg"></div>
+    	<div id="sh_hd_wrapper">
+            
+            <div id="topNavWrap">  
+                <div id="top_logo">
+                    <a href="../index.html"><img src="../assets/img/common/logo.png" alt="쇼굿"></a>
+                </div>
+                <ul id="topNav">
+                    <li class="menu-item">
+                        <a href="../company/greeting.html">COMPANY</a>
+                        <ul class="top_nav_s">
+                            <li><a href="../company/greeting.html">회사소개</a> </li>
+                            <li><a href="../company/history.html">연혁/비전</a> </li>
+                            <li><a href="../company/organization.html">조직도</a> </li>
+                            <li><a href="../company/location.html">오시는 길</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./event-planning.html">BUSINESS</a>
+                        <ul class="top_nav_s">
+                            <li><a href="./event-planning.html">행사기획</a> </li>
+                            <li><a href="./performance-distribution.html">공연팀 배급</a> </li>
+                            <li><a href="./sound-light.html">음향/조명</a> </li>
+                            <li><a href="./stage-installation.html">무대시공</a> </li>
+                            <li><a href="./video-production.html">영상제작</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="../portfolio/corporate-events.html">PORTFOLIO</a>
+                        <ul class="top_nav_s">
+                            <li><a href="../portfolio/corporate-events.html">기업행사</a> </li>
+                            <li><a href="../portfolio/festival-performance.html">축제/공연</a> </li>
+                            <li><a href="../portfolio/wedding-event.html">웨딩/이벤트</a> </li>
+                            <li><a href="../portfolio/promotion.html">프로모션</a> </li>
+                            <li><a href="../portfolio/video-gallery.html">영상 갤러리</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="../team/performer-list.html">TEAM</a>
+                        <ul class="top_nav_s">
+                            <li><a href="../team/performer-list.html">공연팀 목록</a> </li>
+                            <li><a href="../team/artist-registration.html">아티스트 등록신청</a> </li>
+                            <li><a href="../team/staff-registration.html">기술인력 등록신청</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="../community/estimate-inquiry.html">CONTACT</a>
+                        <ul class="top_nav_s">
+                            <li><a href="../community/estimate-inquiry.html">견적 문의</a> </li>
+                            <li><a href="../community/partnership-inquiry.html">협업/제휴 문의</a> </li>
+                            <!-- <li><a href="./community/review.html">고객후기</a> </li> -->
+                        </ul>
+                    </li>
+                </ul>
+                <div id="menuLine"></div>
+
+                <div id="pfBtn" class="">
+                    <div id="nav_btn"><span class="move"></span></div>
+                </div>
+
+                <div id="pfWrap">
+                    <div class="pf_cate">
+                        <ul>
+                            <li>
+                                <a href="../company/greeting.html">
+                                    <span class="nav_num">01</span>COMPANY
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./event-planning.html">
+                                    <span class="nav_num">02</span>BUSINESS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../portfolio/corporate-events.html">
+                                    <span class="nav_num">03</span>PORTFOLIO
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../team/performer-list.html">
+                                    <span class="nav_num">04</span>TEAM
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../community/estimate-inquiry.html">
+                                    <span class="nav_num">05</span>CONTACT
+                                </a>
+                            </li>
+                        </ul>
+                        <a class="ct_link"  href="tel:02-6404-4286">CONTACT</a>
+                    </div>
+                </div>	
+            </div>
+
+            <!-- 반응형메뉴 [s] -->
+            <div id="topmenuM">
+                <div id="m_logo"><a href="../index.html"><img src="../assets/img/common/logo.png" alt="Sample" /></a></div>
+                <!-- 메뉴 버튼 -->
+                <div id="m_navBtn"><span></span></div>
+                <!-- 오픈 메뉴 -->
+                <div id="navWrap">
+                    <div class="inner">
+                        <ul class="m_lnb">
+                            <li>
+                                <button class="m_bmenu" type="button">COMPANY</button>
+                                <ul class="m_smenu">
+                                    <li><a href="../company/greeting.html">회사소개</a> </li>
+                                    <li><a href="../company/history.html">연혁/비전</a> </li>
+                                    <li><a href="../company/organization.html">조직도</a> </li>
+                                    <li><a href="../company/location.html">오시는 길</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="m_bmenu" type="button">BUSINESS</button>
+                                <ul class="m_smenu">
+                                    <li><a href="./event-planning.html">행사기획</a> </li>
+                                    <li><a href="./performance-distribution.html">공연팀 배급</a> </li>
+                                    <li><a href="./sound-light.html">음향/조명</a> </li>
+                                    <li><a href="./stage-installation.html">무대시공</a> </li>
+                                    <li><a href="./video-production.html">영상제작</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="m_bmenu" type="button">PORTFOLIO</button>
+                                <ul class="m_smenu">
+                                    <li><a href="../portfolio/corporate-events.html">기업행사</a> </li>
+                                    <li><a href="../portfolio/festival-performance.html">축제/공연</a> </li>
+                                    <li><a href="../portfolio/wedding-event.html">웨딩/이벤트</a> </li>
+                                    <li><a href="../portfolio/promotion.html">프로모션</a> </li>
+                                    <li><a href="../portfolio/video-gallery.html">영상 갤러리</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="m_bmenu" type="button">TEAM</button>
+                                <ul class="m_smenu">
+                                    <li><a href="../team/performer-list.html">공연팀 목록</a> </li>
+                                    <li><a href="../team/artist-registration.html">아티스트 등록신청</a> </li>
+                                    <li><a href="../team/staff-registration.html">기술인력 등록신청</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="m_bmenu" type="button">CONTACT</button>
+                                <ul class="m_smenu">
+                                    <li><a href="../community/estimate-inquiry.html">견적 문의</a> </li>
+                                    <li><a href="../community/partnership-inquiry.html">협업/제휴 문의</a> </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p class="mo_hd_copy">ⓒ 쇼굿</p>         
+                    </div>
+                </div>
+            </div>
+            <!-- 반응형메뉴 [e] -->
+        </div>           
+    </header>
+    <!-- sh_hd [e] -->
+    
+    <!-- sh_container [s] -->
+    <main id="sh_container">
+
+        <!-- sh_container_wrapper [s] -->
+        <div id="sh_container_wrapper">
+
+            <!-- shSubBnr [s] -->
+            <div id="sub_bg">
+                <div class="bg"></div>
+                <div id="particle-canvas"></div>
+                <script src="../assets/sh_img/index/main_banner/canvas.js"></script>
+            
+                <div class="tit_area">
+                    <span>Special Value</span>
+                    <h2>행사기획</h2>
+                </div>
+            </div>
+            <script>
+                $(document).ready(function(){
+                    $('#sub_bg span').delay(0).animate({opacity: '1'},800);
+                    $('#sub_bg h2').delay(0).animate({opacity: '1',"margin-top":"0"},800);
+                });
+            </script>
+            <!-- shSubBnr [e] -->
+
+            <!-- sh_aside [s] -->
+            <div id="sh_aside">
+                <div id="sh_aside_wrapper">
+                     <ul id="sh_snb">
+                        <li class="snb_on">
+                            <a href="./event-planning.html">행사기획</a>
+                        </li>
+                        <li>
+                            <a href="./performance-distribution.html">공연팀 배급</a>
+                        </li>
+                        <li>
+                            <a href="./sound-light.html">음향/조명</a>
+                        </li>
+                        <li>
+                            <a href="./stage-installation.html">무대시공</a>
+                        </li>
+                        <li>
+                            <a href="./video-production.html">영상제작</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- sh_aside [e] -->
+            
+            <!-- sh_content [s] -->
+            <div id="sh_content">
+                <!-- 서브페이지 [s] -->
+                <div id="business1009" class="pagecommon">
+                    <div class="tit_area t_center">
+                        <span class="pg_color">production</span>
+                        <p class="c_black"><b class="pg_color">Why?</b> 샘플인가</p>
+                    </div>
+                    
+                    <div class="cont_area">
+                        <ul class="box_area">
+                            <li>전통 웹에이전시의<p>제작 Know-how</p></li>
+                            <li>다양한<p>무료샘플디자인</p></li>
+                            <li>어렵지 않은<p>1:1디자이너 배정</p></li>
+                            <li>이미 준비되어 있는<p>무료 프로그램 및 폼</p></li>
+                            <li>믿음이가는<p>투명한 유지보수관리</p></li>
+                            <li>친구같은 멘토<p>항상 열려있는 CS센터</p></li>
+                            <li>비용부담은 NO<p>무료모바일웹 이벤트</p></li>
+                            <li>바이럴 마케팅의 시작<p>블로그 기본셋팅 제공</p></li>
+                            <li>24시간 모니터링 관리<p>안정적인 웹호스팅</p></li>
+                            <li>홈페이지제작 전문<p>SAMPLE 샘플</p></li>
+                        </ul>   
+                        <ul class="txt_area">
+                            <li>
+                                <p><span class="num pg_bgcolor">01</span>1:1디자이너 배정을 원칙으로 합니다.</p>
+                                고객이 원하는 바를 정확하고 정리하고 접수하여 구현하는 디자이너를 각 업체마다 <b>1:1로 배정하고 있습니다. </b><br>
+                                좀 더 가까이에서 좀더 친근하게 제작되는 샤이닝만의 강점입니다.
+                            </li>
+                            <li>
+                                <p><span class="num pg_bgcolor">02</span>업종별 다양한 무료디자인을 보유하고 있습니다.</p>
+                                <b>200여개의 다양한 무료디자인</b>과 무료디자인을 응용하여 저렴한 메인수정부가서비스가 준비되어 있습니다.<br>
+                                무료디자인으로 훨씬 더 저렴한 홈페이지제작이 가능합니다
+                            </li>
+                            <li>
+                                <p><span class="num pg_bgcolor">03</span>투명한 유지보수 관리는 필수입니다. </p>
+                                사용료, 임대료 명목으로 요구하는 <b>월별비용이 없습니다.</b><br>
+                                수정비용은 해당 작업내용에 따라 고객과 상담을 통하여 요청드리는 부분이며 호스팅비용 또한 1년에 1번 순수 임대비용만을 요청드리고 있습니다.
+                            </li>
+                        </ul>       
+                    </div>
+                </div>
+                <!-- 서브페이지 [e] -->
+                
+            </div>
+            <!-- sh_content [e] -->            
+            
+        </div>
+        <!-- sh_container_wrapper [e] -->
+    </main>
+    <!-- sh_container [e] -->
+    
+    <div id="sh_ft_btns">
+        <div class="btns">
+            <a class="tel" href="tel:02-6404-4286"><i class="fa fa-phone"></i>02-6404-4286</a>
+        </div>
+    </div>
+    <a id="fix_tel" href="tel:02-6404-4286" class=""><i class="fa fa-phone"></i></a>
+
+    <!-- sh_ft [s] -->
+    <footer id="sh_ft">
+        <div id="sh_ft_wrapper">
+            <div class="inner">
+                <dl class="add">
+                    <dt>Info</dt>
+                    <dd>
+                        LUXRYN INTERIOR 대표이사: 유성철<br>
+                        사업장주소: 서울특별시 서초구 서초대로 27길 56, 1층 (방배동, 예일빌딩) <br>
+                        사업자등록번호: 387-81-00793<br>
+                        대표번호: 02-6404-4286<br>
+                        이메일: ceo@luxuryNhouse.com
+                    </dd>      
+                </dl>
+                <dl>
+                    <dt>Customer Service</dt>
+                    <dd>
+                        T. 02-6404-4286<br>
+                        E. ceo@luxuryNhouse.com
+                    </dd>      
+                </dl>
+                <dl class="sns">
+                    <dt>Follow Us</dt>
+                    <dd>
+                        <a href=""><i class="fa fa-instagram"></i>instagram</a><br>
+                        <a href=""><i class="fa fa-comments-o"></i>kakao Talk</a>
+                    </dd>      
+                </dl>    
+            </div>    
+            <div class="copy">                    	 
+                <p>Copyright ⓒ 쇼굿 All rights reserved.</p>
+            </div>
+         </div>
+    </footer>
+    <!-- sh_ft [e] -->
+
+<!-- sh_wrapper [e] -->
+</div>
+
+<script>
+    $(window).on("scroll",function(){
+        if($(window).scrollTop() > 100) { 
+            $('#fix_tel').addClass('active');}
+        else{
+            $('#fix_tel').removeClass('active');}
+        return false;
+    });
+    $(function() {
+        // 폰트 리사이즈 쿠키있으면 실행
+        font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+    });
+
+    var $container = $('#sh_gall_ul');
+
+    $container.imagesLoaded( function(){
+        $container.masonry({
+            itemSelector : '.gall_item'
+        });
+    });
+</script>
+
+</body>
+</html>
+
